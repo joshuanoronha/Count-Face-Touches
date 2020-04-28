@@ -1,0 +1,15 @@
+<html>
+
+<body>
+  <div id="container" style="position:relative;">
+    <video id="webcamFeed" width=640 height=480 style="position:absolute; top:0; left:0;z-index: -1;"></video>
+    <!-- <canvas id="canvas" style="position:absolute; top:0; left:0;"></canvas> -->
+  </div>
+  <div>Number of times you touched your face: <span id="numberOfTimes">0</span></div>
+  <audio></audio>
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+  <script src="http://localhost:8000/scripts/face-api.min.js"></script>
+  <script src="http://localhost:8000/app.js"></script>
+</body>
+
+</html>
